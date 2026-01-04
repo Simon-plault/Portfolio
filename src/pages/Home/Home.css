@@ -1,0 +1,33 @@
+.container {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.main-col {
+  display: grid;
+  gap: 20px;
+}
+
+.side-col {
+  position: relative;
+}
+
+@media (min-width: 980px) {
+  .layout {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+    gap: 32px;
+  }
+}
+
+/* subtle page background */
+body {
+  background: linear-gradient(180deg, #0f1720 0%, #111827 100%);
+}
