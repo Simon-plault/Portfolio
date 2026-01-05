@@ -1,7 +1,7 @@
 import './Header.css';
 
 import './Header.css';
-import avatar from '../../assets/avatar.svg';
+import avatar from '../../assets/avatar.jpg';
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
           <p className="subtitle">Étudiant en 2e année de BUT Informatique à l'IUT de La Rochelle</p>
           <p className="bio">Développeur spécialisé dans les systèmes logiciels performants, passionné par la robotique et la conception industrielle 3D.</p>
           <div className="contact-links">
-            <a href="mailto:ton-email@exemple.com" aria-label="Envoyer un email">
+            <a href="mailto:simon.plault36@example.com" aria-label="Envoyer un email">
               <svg className="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
               </svg>

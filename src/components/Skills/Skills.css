@@ -1,12 +1,22 @@
 .skills-section {
-  background: linear-gradient(180deg,#ffffff 0%, #fbfcff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #fbfcff 100%);
   padding: 26px;
   border-radius: 10px;
   margin-top: 20px;
-  box-shadow: 0 8px 20px rgba(2,6,23,0.05);
+  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.05);
 }
-.skills-section h2 { margin-bottom: 12px; }
-.skills-grid { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+
+.skills-section h2 {
+  margin-bottom: 12px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
 .skill-badge {
   background: #2563eb;
   color: #fff;
@@ -16,5 +26,11 @@
   font-size: 0.88rem;
 }
 
-.skills-section > div { margin-bottom: 14px; }
-.skills-section h4 { margin: 8px 0 6px; color: #2c3e50; }
+.skills-section > div {
+  margin-bottom: 14px;
+}
+
+.skills-section h4 {
+  margin: 8px 0 6px;
+  color: #2c3e50;
+}

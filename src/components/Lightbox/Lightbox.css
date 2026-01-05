@@ -1,14 +1,26 @@
 .lightbox-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(2,6,23,0.6);
+  background: rgba(2, 6, 23, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1200;
 }
-.lightbox-content { position: relative; max-width: 90vw; max-height: 90vh; }
-.lightbox-content img { display: block; width: 100%; height: auto; border-radius: 8px; }
+
+.lightbox-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.lightbox-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 .lightbox-close {
   position: absolute;
   right: -10px;
